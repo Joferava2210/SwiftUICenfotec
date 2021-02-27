@@ -13,6 +13,8 @@
 		8A9CD17025E9D70000CB1326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A9CD16F25E9D70000CB1326 /* Assets.xcassets */; };
 		8A9CD17325E9D70000CB1326 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A9CD17225E9D70000CB1326 /* Preview Assets.xcassets */; };
 		8A9CD17625E9D70000CB1326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9CD17425E9D70000CB1326 /* LaunchScreen.storyboard */; };
+		8A9CD17E25EA0E9A00CB1326 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CD17D25EA0E9A00CB1326 /* CircleImage.swift */; };
+		8A9CD18025EA105700CB1326 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CD17F25EA105700CB1326 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8A9CD17225E9D70000CB1326 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8A9CD17525E9D70000CB1326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A9CD17725E9D70000CB1326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A9CD17D25EA0E9A00CB1326 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		8A9CD17F25EA105700CB1326 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				8A9CD16925E9D6FE00CB1326 /* AppDelegate.swift */,
+				8A9CD17D25EA0E9A00CB1326 /* CircleImage.swift */,
+				8A9CD17F25EA105700CB1326 /* MapView.swift */,
 				8A9CD16B25E9D6FE00CB1326 /* SceneDelegate.swift */,
 				8A9CD16D25E9D6FE00CB1326 /* ContentView.swift */,
 				8A9CD16F25E9D70000CB1326 /* Assets.xcassets */,
@@ -102,7 +108,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = com.framirez;
 				TargetAttributes = {
 					8A9CD16525E9D6FE00CB1326 = {
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A9CD16A25E9D6FE00CB1326 /* AppDelegate.swift in Sources */,
+				8A9CD17E25EA0E9A00CB1326 /* CircleImage.swift in Sources */,
+				8A9CD18025EA105700CB1326 /* MapView.swift in Sources */,
 				8A9CD16C25E9D6FE00CB1326 /* SceneDelegate.swift in Sources */,
 				8A9CD16E25E9D6FE00CB1326 /* ContentView.swift in Sources */,
 			);
@@ -192,6 +200,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -216,7 +225,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -252,6 +261,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -270,7 +280,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
